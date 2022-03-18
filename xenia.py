@@ -92,7 +92,7 @@ def get_text_messages(message):
         bot.send_message(chat_id, text="Задачи с 1-го занятия", reply_markup=markup)
 
     elif ms_text == "1":  # .........................................................
-        name = 'Вероника'
+        name = 'Ксения'
         bot.send_message(chat_id, text=name)
 
     elif ms_text == "2":  # .........................................................
