@@ -96,13 +96,13 @@ def get_text_messages(message):
         bot.send_message(chat_id, text=name)
 
     elif ms_text == "2":  # .........................................................
-        name = 'Вероника'
-        age = 20
+        name = 'Ксения'
+        age = 19
         message = 'Привет, меня зовут ' + name + '. Мне ' + str(age) + ' лет.'
         bot.send_message(chat_id, text=message)
 
     elif ms_text == "3":  # .........................................................
-        name = 'Вероника'
+        name = 'Ксения'
         name5 = name * 5
         bot.send_message(chat_id, text=name5)
 
